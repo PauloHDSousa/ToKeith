@@ -1,0 +1,17 @@
+{
+  "name": "To Keith",
+  "description": "Some Messages from me to Keith.",
+  "version": "1.0",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+      "default_title": "To Keith",
+      "default_icon": "icon.png"
+  },
+  "manifest_version": 2
+}
